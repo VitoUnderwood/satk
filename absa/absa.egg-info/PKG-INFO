@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: absa
+Version: 0.0.0.0
+Summary: My short description for my project.
+Home-page: https://github.com/vito19960522/absa
+Author: Vito
+Author-email: 1240505429@qq.com
+License: MIT
+Description: 
+        # count-line
+        
+        ## Usage
+        A cross-platform command line tool to do sentiment analysis task
+        
+        ## Installation
+        You can install, upgrade, uninstall SATK with these commands(without $):
+        ```
+        $ pip install count-line
+        $ pip install --upgrade count-line
+        $ pip unstall count-line
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown

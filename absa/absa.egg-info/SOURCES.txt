@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+absa/__init__.py
+absa/module.py
+absa.egg-info/PKG-INFO
+absa.egg-info/SOURCES.txt
+absa.egg-info/dependency_links.txt
+absa.egg-info/top_level.txt
+absa/absa/__init__.py
+absa/absa/api.py
+absa/absa/utils/__init__.py
+absa/absa/utils/span.py
+absa/classifier/__init__.py
+absa/classifier/call_test.py
+absa/classifier/pipelines.py
