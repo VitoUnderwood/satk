@@ -7,3 +7,4 @@ pretrained
 .DS_Store
 __pycache__
 papers
+.vscode
