@@ -2,4 +2,8 @@
 data
 asset
 datasets
-models
+pretrained
+.idea
+.DS_Store
+__pycache__
+papers
