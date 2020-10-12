@@ -23,7 +23,7 @@ import satk
 功能|模型|实现
 --|--|--
 新闻主题分类|news_classifier|bert
---|lda|LDA
+评论主题分布|lda|LDA
 
 ## 训练数据
 
@@ -33,33 +33,3 @@ import satk
 
 详细使用文档
 模型共享
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
