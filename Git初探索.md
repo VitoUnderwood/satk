@@ -30,3 +30,13 @@ git checkout -b new_branch
 
 git remote add origin <https://github.com/vito19960522/satk.>
 git remote remove origin
+
+## dev分支
+
+git clone -b dev 
+
+git pull origin dev
+
+git push origin dev
+
+git push --set-upstream origin dev  关联远程分支，以后直接push
