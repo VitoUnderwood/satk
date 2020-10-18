@@ -7,12 +7,9 @@ pretrained
 .DS_Store
 __pycache__
 papers
-<<<<<<< HEAD
 .vscode
 *.pkl
 *.ckpt
 .ipynb_checkpoints
 *.ipynb
-=======
 .vscode
->>>>>>> cc906bed677fec9b8047e704a124b8f282ebff93
