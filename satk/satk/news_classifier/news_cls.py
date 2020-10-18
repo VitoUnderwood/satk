@@ -45,7 +45,6 @@ class Pipeline:
 
             message = {'data': data, '最大概率': probs[0][preds].item(),
                        '类别': self.class_name[preds.item()]}
-            message = json.dumps(message, ensure_ascii=False)  # 解决中文显示乱码
             print(message)
             return message
 

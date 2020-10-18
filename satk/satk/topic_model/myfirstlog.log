@@ -1,0 +1,400 @@
+2020-10-15 19:19:46,153 | root | INFO | This message will be logged
+2020-10-15 19:19:46,153 | root | DEBUG | This message will not be logged
+2020-10-15 19:22:04,296 | root | INFO | Example of logging with ISO-8601 timestamp
+2020-10-15 19:33:03,115 root.<module> +6: INFO     [7207] This message will be logged
+2020-10-15 19:33:03,115 root.<module> +7: DEBUG    [7207] This message will not be logged
+2020-10-15 19:33:10,928 root.<module> +6: INFO     [7212] This message will be logged
+2020-10-15 19:33:10,928 root.<module> +7: DEBUG    [7212] This message will not be logged
+2020-10-15 19:34:10,152 parso.cache._load_from_file_system +143: DEBUG    [7212] pickle loaded: /Users/vito/opt/anaconda3/envs/ml/lib/python3.7/site-packages/jedi/third_party/typeshed/stdlib/2and3/builtins.pyi
+2020-10-15 19:34:10,157 parso.cache._load_from_file_system +143: DEBUG    [7212] pickle loaded: /Users/vito/opt/anaconda3/envs/ml/lib/python3.7/site-packages/jedi/third_party/typeshed/stdlib/3/sys.pyi
+2020-10-15 19:34:10,452 parso.python.diff.update +282: DEBUG    [7212] diff parser start
+2020-10-15 19:34:10,452 parso.python.diff.update +293: DEBUG    [7212] line_lengths old: 3; new: 3
+2020-10-15 19:34:10,452 parso.python.diff.update +297: DEBUG    [7212] -> code[equal] old[1:2] new[1:2]
+2020-10-15 19:34:10,452 parso.python.diff._copy_from_old_parser +380: DEBUG    [7212] copy old[1:1] new[1:1]
+2020-10-15 19:34:10,453 parso.python.diff._parse +425: DEBUG    [7212] parse_part from 2 to 3 (to 2 in part parser)
+2020-10-15 19:34:10,453 parso.python.diff.update +297: DEBUG    [7212] -> code[replace] old[3:3] new[3:3]
+2020-10-15 19:34:10,453 parso.python.diff.update +339: DEBUG    [7212] diff parser end
+2020-10-15 19:34:10,618 parso.python.diff.update +282: DEBUG    [7212] diff parser start
+2020-10-15 19:34:10,618 parso.python.diff.update +293: DEBUG    [7212] line_lengths old: 3; new: 3
+2020-10-15 19:34:10,618 parso.python.diff.update +297: DEBUG    [7212] -> code[equal] old[1:2] new[1:2]
+2020-10-15 19:34:10,619 parso.python.diff._copy_from_old_parser +380: DEBUG    [7212] copy old[1:1] new[1:1]
+2020-10-15 19:34:10,619 parso.python.diff._parse +425: DEBUG    [7212] parse_part from 2 to 3 (to 2 in part parser)
+2020-10-15 19:34:10,619 parso.python.diff.update +297: DEBUG    [7212] -> code[replace] old[3:3] new[3:3]
+2020-10-15 19:34:10,619 parso.python.diff.update +339: DEBUG    [7212] diff parser end
+2020-10-15 19:34:19,849 root.<module> +6: INFO     [7239] This message will be logged
+2020-10-15 19:46:30,445 jieba_fast.initialize +117: DEBUG    [7239] Building prefix dict from the default dictionary ...
+2020-10-15 19:46:30,447 jieba_fast.initialize +137: DEBUG    [7239] Loading model from cache /var/folders/j3/469syj552jx4gt9n73lycfh00000gn/T/jieba.cache
+2020-10-15 19:46:31,008 jieba_fast.initialize +169: DEBUG    [7239] Loading model cost 0.562 seconds.
+2020-10-15 19:46:31,009 jieba_fast.initialize +170: DEBUG    [7239] Prefix dict has been built succesfully.
+2020-10-15 19:53:32,166 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #0 to Dictionary(0 unique tokens: [])
+2020-10-15 19:53:32,439 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #10000 to Dictionary(43742 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:32,688 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #20000 to Dictionary(66639 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:32,943 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #30000 to Dictionary(83713 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:33,230 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #40000 to Dictionary(98202 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:33,499 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #50000 to Dictionary(111439 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:33,743 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #60000 to Dictionary(123078 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:34,039 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #70000 to Dictionary(133783 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:34,297 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #80000 to Dictionary(143363 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:34,583 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #90000 to Dictionary(152529 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:34,839 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #100000 to Dictionary(161313 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:35,138 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #110000 to Dictionary(169521 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:35,439 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #120000 to Dictionary(177470 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:35,734 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #130000 to Dictionary(185272 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:36,010 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #140000 to Dictionary(192728 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:36,298 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #150000 to Dictionary(199769 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:36,570 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #160000 to Dictionary(206763 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:36,861 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #170000 to Dictionary(213271 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:37,170 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #180000 to Dictionary(219598 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:37,458 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #190000 to Dictionary(225831 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:37,749 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #200000 to Dictionary(231801 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:38,049 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #210000 to Dictionary(238425 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:38,345 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #220000 to Dictionary(244198 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:38,648 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #230000 to Dictionary(249839 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:38,956 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #240000 to Dictionary(254978 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:39,288 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #250000 to Dictionary(259828 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:39,649 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #260000 to Dictionary(265405 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:39,979 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #270000 to Dictionary(270883 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:40,310 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #280000 to Dictionary(275900 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:40,620 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #290000 to Dictionary(280614 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:40,946 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #300000 to Dictionary(285128 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:41,260 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #310000 to Dictionary(287951 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:41,621 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #320000 to Dictionary(287951 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:41,941 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #330000 to Dictionary(287951 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:42,240 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #340000 to Dictionary(287951 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:42,553 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #350000 to Dictionary(287951 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:42,835 gensim.corpora.dictionary.add_documents +209: INFO     [7239] adding document #360000 to Dictionary(287951 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...)
+2020-10-15 19:53:42,894 gensim.corpora.dictionary.add_documents +216: INFO     [7239] built Dictionary(287951 unique tokens: ['五角星', '件', '伦伦', '余', '周小伦']...) from 361744 documents (total 6374836 corpus positions)
+2020-10-15 20:33:15,459 gensim.models.ldamodel.init_dir_prior +557: INFO     [7239] using symmetric alpha at 0.1
+2020-10-15 20:33:15,460 gensim.models.ldamodel.init_dir_prior +557: INFO     [7239] using symmetric eta at 0.1
+2020-10-15 20:33:15,498 gensim.models.ldamodel.__init__ +481: INFO     [7239] using serial LDA version on this node
+2020-10-15 20:33:15,744 gensim.models.ldamulticore.update +243: INFO     [7239] running online LDA training, 10 topics, 1 passes over the supplied corpus of 361744 documents, updating every 22000 documents, evaluating every ~110000 documents, iterating 50x with a convergence threshold of 0.001000
+2020-10-15 20:33:15,753 gensim.models.ldamulticore.update +279: INFO     [7239] training LDA model using 11 processes
+2020-10-15 20:33:15,852 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #0 = documents up to #2000/361744, outstanding queue size 1
+2020-10-15 20:33:15,863 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #1 = documents up to #4000/361744, outstanding queue size 2
+2020-10-15 20:33:16,397 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #2 = documents up to #6000/361744, outstanding queue size 3
+2020-10-15 20:33:16,400 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #3 = documents up to #8000/361744, outstanding queue size 4
+2020-10-15 20:33:16,403 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #4 = documents up to #10000/361744, outstanding queue size 5
+2020-10-15 20:33:16,407 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #5 = documents up to #12000/361744, outstanding queue size 6
+2020-10-15 20:33:16,410 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #6 = documents up to #14000/361744, outstanding queue size 7
+2020-10-15 20:33:16,412 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #7 = documents up to #16000/361744, outstanding queue size 8
+2020-10-15 20:33:16,415 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #8 = documents up to #18000/361744, outstanding queue size 9
+2020-10-15 20:33:16,419 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #9 = documents up to #20000/361744, outstanding queue size 10
+2020-10-15 20:33:16,423 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #10 = documents up to #22000/361744, outstanding queue size 11
+2020-10-15 20:33:16,426 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #11 = documents up to #24000/361744, outstanding queue size 12
+2020-10-15 20:33:16,429 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #12 = documents up to #26000/361744, outstanding queue size 13
+2020-10-15 20:33:16,432 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #13 = documents up to #28000/361744, outstanding queue size 14
+2020-10-15 20:33:16,435 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #14 = documents up to #30000/361744, outstanding queue size 15
+2020-10-15 20:33:16,439 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #15 = documents up to #32000/361744, outstanding queue size 16
+2020-10-15 20:33:16,441 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #16 = documents up to #34000/361744, outstanding queue size 17
+2020-10-15 20:33:16,444 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #17 = documents up to #36000/361744, outstanding queue size 18
+2020-10-15 20:33:16,447 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #18 = documents up to #38000/361744, outstanding queue size 19
+2020-10-15 20:33:16,450 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #19 = documents up to #40000/361744, outstanding queue size 20
+2020-10-15 20:33:16,453 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #20 = documents up to #42000/361744, outstanding queue size 21
+2020-10-15 20:33:16,456 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #21 = documents up to #44000/361744, outstanding queue size 22
+2020-10-15 20:33:16,577 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #22 = documents up to #46000/361744, outstanding queue size 23
+2020-10-15 20:33:16,865 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #23 = documents up to #48000/361744, outstanding queue size 24
+2020-10-15 20:33:17,093 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #24 = documents up to #50000/361744, outstanding queue size 25
+2020-10-15 20:33:17,262 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #25 = documents up to #52000/361744, outstanding queue size 26
+2020-10-15 20:33:17,471 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #26 = documents up to #54000/361744, outstanding queue size 27
+2020-10-15 20:33:17,747 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #27 = documents up to #56000/361744, outstanding queue size 28
+2020-10-15 20:33:17,955 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #28 = documents up to #58000/361744, outstanding queue size 29
+2020-10-15 20:33:18,149 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #29 = documents up to #60000/361744, outstanding queue size 29
+2020-10-15 20:33:18,385 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #30 = documents up to #62000/361744, outstanding queue size 29
+2020-10-15 20:33:18,668 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #31 = documents up to #64000/361744, outstanding queue size 29
+2020-10-15 20:33:18,797 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #32 = documents up to #66000/361744, outstanding queue size 29
+2020-10-15 20:33:19,232 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #33 = documents up to #68000/361744, outstanding queue size 29
+2020-10-15 20:33:19,537 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #34 = documents up to #70000/361744, outstanding queue size 29
+2020-10-15 20:33:19,761 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #35 = documents up to #72000/361744, outstanding queue size 29
+2020-10-15 20:33:20,066 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #36 = documents up to #74000/361744, outstanding queue size 29
+2020-10-15 20:33:20,327 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #37 = documents up to #76000/361744, outstanding queue size 29
+2020-10-15 20:33:21,114 gensim.models.ldamodel.blend +230: INFO     [7239] merging changes from 24000 documents into a model of 361744 documents
+2020-10-15 20:33:21,664 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #3 (0.100): 0.013*"说" + 0.007*"喜欢" + 0.006*"想" + 0.005*"做" + 0.005*"爱" + 0.005*"回复" + 0.004*"真的" + 0.004*"中" + 0.004*"中国" + 0.003*"里"
+2020-10-15 20:33:21,669 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #5 (0.100): 0.007*"中" + 0.006*"说" + 0.005*"想" + 0.004*"回复" + 0.004*"朋友" + 0.003*"老师" + 0.003*"生活" + 0.003*"中国" + 0.003*"加油" + 0.002*"喜欢"
+2020-10-15 20:33:21,673 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #8 (0.100): 0.009*"喜欢" + 0.006*"岁" + 0.005*"说" + 0.004*"回复" + 0.003*"笑" + 0.003*"做" + 0.003*"分享" + 0.003*"吃" + 0.003*"哈哈哈" + 0.002*"图片"
+2020-10-15 20:33:21,676 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #2 (0.100): 0.008*"说" + 0.007*"太" + 0.006*"男人" + 0.005*"回复" + 0.004*"女人" + 0.004*"可爱" + 0.003*"吃" + 0.003*"做" + 0.003*"围脖" + 0.003*"快乐"
+2020-10-15 20:33:21,679 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #9 (0.100): 0.007*"第名" + 0.005*"想" + 0.005*"回复" + 0.004*"哈哈哈" + 0.004*"说" + 0.004*"可爱" + 0.003*"喜欢" + 0.003*"真的" + 0.003*"谢谢" + 0.003*"中国"
+2020-10-15 20:33:21,685 gensim.models.ldamodel.do_mstep +1049: INFO     [7239] topic diff=9.728626, rho=1.000000
+2020-10-15 20:33:21,688 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #38 = documents up to #78000/361744, outstanding queue size 27
+2020-10-15 20:33:23,202 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #39 = documents up to #80000/361744, outstanding queue size 18
+2020-10-15 20:33:23,205 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #40 = documents up to #82000/361744, outstanding queue size 19
+2020-10-15 20:33:23,208 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #41 = documents up to #84000/361744, outstanding queue size 20
+2020-10-15 20:33:23,211 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #42 = documents up to #86000/361744, outstanding queue size 21
+2020-10-15 20:33:23,214 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #43 = documents up to #88000/361744, outstanding queue size 22
+2020-10-15 20:33:23,217 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #44 = documents up to #90000/361744, outstanding queue size 23
+2020-10-15 20:33:23,219 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #45 = documents up to #92000/361744, outstanding queue size 24
+2020-10-15 20:33:23,222 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #46 = documents up to #94000/361744, outstanding queue size 25
+2020-10-15 20:33:23,225 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #47 = documents up to #96000/361744, outstanding queue size 26
+2020-10-15 20:33:23,881 gensim.models.ldamodel.blend +230: INFO     [7239] merging changes from 22000 documents into a model of 361744 documents
+2020-10-15 20:33:24,246 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #2 (0.100): 0.008*"说" + 0.007*"太" + 0.006*"男人" + 0.005*"女人" + 0.005*"回复" + 0.004*"可爱" + 0.003*"吃" + 0.003*"做" + 0.003*"哈哈哈" + 0.003*"围脖"
+2020-10-15 20:33:24,249 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #6 (0.100): 0.007*"说" + 0.006*"回复" + 0.005*"支持" + 0.004*"孩子" + 0.004*"爱" + 0.004*"中国" + 0.004*"喜欢" + 0.004*"太" + 0.004*"分享" + 0.003*"笑"
+2020-10-15 20:33:24,252 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #7 (0.100): 0.007*"回复" + 0.006*"说" + 0.005*"吃" + 0.004*"谢谢" + 0.004*"粉丝" + 0.004*"中国" + 0.003*"中" + 0.003*"幸福" + 0.003*"爱" + 0.003*"真"
+2020-10-15 20:33:24,254 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #4 (0.100): 0.006*"爱" + 0.006*"说" + 0.004*"想" + 0.004*"微博" + 0.004*"吃" + 0.004*"真的" + 0.003*"快乐" + 0.003*"回复" + 0.003*"喜欢" + 0.003*"围脖"
+2020-10-15 20:33:24,257 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #1 (0.100): 0.007*"说" + 0.004*"啊啊啊" + 0.004*"回复" + 0.004*"粉丝" + 0.003*"朋友" + 0.003*"关注" + 0.003*"中" + 0.003*"里" + 0.003*"新" + 0.003*"太"
+2020-10-15 20:33:24,262 gensim.models.ldamodel.do_mstep +1049: INFO     [7239] topic diff=0.429196, rho=0.277350
+2020-10-15 20:33:24,265 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #48 = documents up to #98000/361744, outstanding queue size 26
+2020-10-15 20:33:25,397 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #49 = documents up to #100000/361744, outstanding queue size 21
+2020-10-15 20:33:25,400 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #50 = documents up to #102000/361744, outstanding queue size 22
+2020-10-15 20:33:25,403 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #51 = documents up to #104000/361744, outstanding queue size 23
+2020-10-15 20:33:25,406 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #52 = documents up to #106000/361744, outstanding queue size 24
+2020-10-15 20:33:25,409 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #53 = documents up to #108000/361744, outstanding queue size 25
+2020-10-15 20:33:25,412 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #54 = documents up to #110000/361744, outstanding queue size 26
+2020-10-15 20:33:25,706 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #55 = documents up to #112000/361744, outstanding queue size 26
+2020-10-15 20:33:25,960 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #56 = documents up to #114000/361744, outstanding queue size 27
+2020-10-15 20:33:26,271 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #57 = documents up to #116000/361744, outstanding queue size 27
+2020-10-15 20:33:26,530 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #58 = documents up to #118000/361744, outstanding queue size 27
+2020-10-15 20:33:26,836 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #59 = documents up to #120000/361744, outstanding queue size 27
+2020-10-15 20:33:27,238 gensim.models.ldamodel.blend +230: INFO     [7239] merging changes from 22000 documents into a model of 361744 documents
+2020-10-15 20:33:27,564 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #5 (0.100): 0.007*"中" + 0.006*"说" + 0.005*"想" + 0.004*"回复" + 0.004*"朋友" + 0.003*"老师" + 0.003*"中国" + 0.003*"加油" + 0.003*"生活" + 0.003*"请"
+2020-10-15 20:33:27,567 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #0 (0.100): 0.007*"做" + 0.007*"说" + 0.007*"想" + 0.006*"回复" + 0.006*"哈哈哈" + 0.005*"请" + 0.005*"一种" + 0.003*"爱" + 0.003*"微博" + 0.003*"男人"
+2020-10-15 20:33:27,572 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #9 (0.100): 0.008*"第名" + 0.006*"想" + 0.005*"回复" + 0.004*"哈哈哈" + 0.004*"说" + 0.004*"可爱" + 0.003*"真的" + 0.003*"喜欢" + 0.003*"谢谢" + 0.003*"中国"
+2020-10-15 20:33:27,577 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #2 (0.100): 0.008*"说" + 0.007*"男人" + 0.007*"太" + 0.006*"女人" + 0.005*"可爱" + 0.005*"回复" + 0.003*"吃" + 0.003*"做" + 0.003*"哈哈哈" + 0.003*"围脖"
+2020-10-15 20:33:27,581 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #6 (0.100): 0.007*"说" + 0.006*"回复" + 0.006*"支持" + 0.004*"孩子" + 0.004*"中国" + 0.004*"爱" + 0.004*"分享" + 0.004*"喜欢" + 0.004*"太" + 0.004*"笑"
+2020-10-15 20:33:27,587 gensim.models.ldamodel.do_mstep +1049: INFO     [7239] topic diff=0.042916, rho=0.204124
+2020-10-15 20:33:27,593 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #60 = documents up to #122000/361744, outstanding queue size 27
+2020-10-15 20:33:28,465 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #61 = documents up to #124000/361744, outstanding queue size 23
+2020-10-15 20:33:28,468 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #62 = documents up to #126000/361744, outstanding queue size 24
+2020-10-15 20:33:28,716 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #63 = documents up to #128000/361744, outstanding queue size 24
+2020-10-15 20:33:28,719 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #64 = documents up to #130000/361744, outstanding queue size 25
+2020-10-15 20:33:28,722 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #65 = documents up to #132000/361744, outstanding queue size 26
+2020-10-15 20:33:29,006 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #66 = documents up to #134000/361744, outstanding queue size 26
+2020-10-15 20:33:29,283 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #67 = documents up to #136000/361744, outstanding queue size 26
+2020-10-15 20:33:29,517 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #68 = documents up to #138000/361744, outstanding queue size 27
+2020-10-15 20:33:29,781 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #69 = documents up to #140000/361744, outstanding queue size 27
+2020-10-15 20:33:30,020 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #70 = documents up to #142000/361744, outstanding queue size 27
+2020-10-15 20:33:30,406 gensim.models.ldamodel.blend +230: INFO     [7239] merging changes from 22000 documents into a model of 361744 documents
+2020-10-15 20:33:30,725 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #0 (0.100): 0.008*"做" + 0.007*"说" + 0.007*"想" + 0.006*"回复" + 0.006*"哈哈哈" + 0.005*"一种" + 0.005*"请" + 0.004*"微博" + 0.003*"爱" + 0.003*"男人"
+2020-10-15 20:33:30,729 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #6 (0.100): 0.007*"说" + 0.006*"回复" + 0.006*"支持" + 0.005*"孩子" + 0.004*"中国" + 0.004*"分享" + 0.004*"爱" + 0.004*"喜欢" + 0.004*"太" + 0.003*"笑"
+2020-10-15 20:33:30,731 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #2 (0.100): 0.009*"说" + 0.008*"男人" + 0.008*"太" + 0.007*"女人" + 0.005*"可爱" + 0.005*"回复" + 0.004*"吃" + 0.003*"做" + 0.003*"哈哈哈" + 0.003*"围脖"
+2020-10-15 20:33:30,735 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #8 (0.100): 0.009*"喜欢" + 0.005*"岁" + 0.004*"回复" + 0.004*"说" + 0.004*"笑" + 0.003*"分享" + 0.003*"做" + 0.003*"吃" + 0.003*"哈哈哈" + 0.003*"太"
+2020-10-15 20:33:30,738 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #7 (0.100): 0.007*"回复" + 0.006*"吃" + 0.006*"说" + 0.004*"粉丝" + 0.004*"谢谢" + 0.004*"中国" + 0.003*"中" + 0.003*"幸福" + 0.003*"真" + 0.003*"女"
+2020-10-15 20:33:30,743 gensim.models.ldamodel.do_mstep +1049: INFO     [7239] topic diff=0.036418, rho=0.169031
+2020-10-15 20:33:30,749 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #71 = documents up to #144000/361744, outstanding queue size 27
+2020-10-15 20:33:31,624 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #72 = documents up to #146000/361744, outstanding queue size 22
+2020-10-15 20:33:31,627 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #73 = documents up to #148000/361744, outstanding queue size 23
+2020-10-15 20:33:31,630 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #74 = documents up to #150000/361744, outstanding queue size 24
+2020-10-15 20:33:31,806 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #75 = documents up to #152000/361744, outstanding queue size 25
+2020-10-15 20:33:31,846 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #76 = documents up to #154000/361744, outstanding queue size 26
+2020-10-15 20:33:32,422 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #77 = documents up to #156000/361744, outstanding queue size 25
+2020-10-15 20:33:32,425 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #78 = documents up to #158000/361744, outstanding queue size 26
+2020-10-15 20:33:32,673 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #79 = documents up to #160000/361744, outstanding queue size 27
+2020-10-15 20:33:32,911 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #80 = documents up to #162000/361744, outstanding queue size 27
+2020-10-15 20:33:33,195 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #81 = documents up to #164000/361744, outstanding queue size 27
+2020-10-15 20:33:33,586 gensim.models.ldamodel.blend +230: INFO     [7239] merging changes from 22000 documents into a model of 361744 documents
+2020-10-15 20:33:33,905 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #3 (0.100): 0.015*"说" + 0.007*"喜欢" + 0.006*"想" + 0.006*"爱" + 0.005*"做" + 0.005*"回复" + 0.004*"中" + 0.004*"真的" + 0.004*"中国" + 0.004*"里"
+2020-10-15 20:33:33,908 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #8 (0.100): 0.009*"喜欢" + 0.005*"岁" + 0.005*"回复" + 0.004*"说" + 0.004*"笑" + 0.003*"分享" + 0.003*"做" + 0.003*"吃" + 0.003*"太" + 0.003*"哈哈哈"
+2020-10-15 20:33:33,910 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #5 (0.100): 0.007*"中" + 0.005*"说" + 0.004*"回复" + 0.004*"想" + 0.004*"朋友" + 0.003*"老师" + 0.003*"加油" + 0.003*"中国" + 0.003*"生活" + 0.003*"请"
+2020-10-15 20:33:33,913 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #0 (0.100): 0.008*"做" + 0.007*"说" + 0.007*"想" + 0.006*"回复" + 0.006*"哈哈哈" + 0.005*"一种" + 0.005*"请" + 0.004*"微博" + 0.003*"爱" + 0.003*"男人"
+2020-10-15 20:33:33,916 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #2 (0.100): 0.009*"说" + 0.009*"男人" + 0.008*"太" + 0.007*"女人" + 0.006*"可爱" + 0.005*"回复" + 0.004*"吃" + 0.003*"做" + 0.003*"哈哈哈" + 0.003*"真"
+2020-10-15 20:33:33,922 gensim.models.ldamodel.do_mstep +1049: INFO     [7239] topic diff=0.029884, rho=0.147442
+2020-10-15 20:33:33,927 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #82 = documents up to #166000/361744, outstanding queue size 27
+2020-10-15 20:33:34,800 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #83 = documents up to #168000/361744, outstanding queue size 22
+2020-10-15 20:33:34,993 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #84 = documents up to #170000/361744, outstanding queue size 23
+2020-10-15 20:33:34,995 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #85 = documents up to #172000/361744, outstanding queue size 24
+2020-10-15 20:33:34,998 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #86 = documents up to #174000/361744, outstanding queue size 25
+2020-10-15 20:33:35,001 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #87 = documents up to #176000/361744, outstanding queue size 26
+2020-10-15 20:33:35,224 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #88 = documents up to #178000/361744, outstanding queue size 27
+2020-10-15 20:33:35,526 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #89 = documents up to #180000/361744, outstanding queue size 27
+2020-10-15 20:33:35,760 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #90 = documents up to #182000/361744, outstanding queue size 27
+2020-10-15 20:33:36,054 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #91 = documents up to #184000/361744, outstanding queue size 27
+2020-10-15 20:33:36,329 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #92 = documents up to #186000/361744, outstanding queue size 27
+2020-10-15 20:33:36,693 gensim.models.ldamodel.blend +230: INFO     [7239] merging changes from 22000 documents into a model of 361744 documents
+2020-10-15 20:33:37,015 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #7 (0.100): 0.007*"回复" + 0.006*"吃" + 0.005*"说" + 0.005*"粉丝" + 0.004*"谢谢" + 0.004*"中国" + 0.003*"中" + 0.003*"幸福" + 0.003*"女" + 0.003*"手机"
+2020-10-15 20:33:37,018 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #0 (0.100): 0.008*"做" + 0.007*"说" + 0.007*"想" + 0.006*"回复" + 0.006*"哈哈哈" + 0.005*"一种" + 0.005*"请" + 0.004*"微博" + 0.003*"爱" + 0.003*"太"
+2020-10-15 20:33:37,020 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #4 (0.100): 0.007*"爱" + 0.006*"说" + 0.005*"吃" + 0.005*"微博" + 0.004*"想" + 0.004*"快乐" + 0.004*"围脖" + 0.004*"真的" + 0.003*"喜欢" + 0.003*"回复"
+2020-10-15 20:33:37,023 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #2 (0.100): 0.009*"男人" + 0.009*"说" + 0.008*"太" + 0.008*"女人" + 0.006*"可爱" + 0.005*"回复" + 0.004*"吃" + 0.003*"做" + 0.003*"哈哈哈" + 0.003*"真"
+2020-10-15 20:33:37,025 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #6 (0.100): 0.007*"说" + 0.006*"回复" + 0.006*"支持" + 0.005*"中国" + 0.005*"孩子" + 0.004*"分享" + 0.004*"爱" + 0.004*"图片" + 0.003*"喜欢" + 0.003*"笑"
+2020-10-15 20:33:37,029 gensim.models.ldamodel.do_mstep +1049: INFO     [7239] topic diff=0.027160, rho=0.132453
+2020-10-15 20:33:37,035 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #93 = documents up to #188000/361744, outstanding queue size 27
+2020-10-15 20:33:37,846 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #94 = documents up to #190000/361744, outstanding queue size 23
+2020-10-15 20:33:37,891 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #95 = documents up to #192000/361744, outstanding queue size 23
+2020-10-15 20:33:37,894 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #96 = documents up to #194000/361744, outstanding queue size 24
+2020-10-15 20:33:37,896 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #97 = documents up to #196000/361744, outstanding queue size 25
+2020-10-15 20:33:38,107 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #98 = documents up to #198000/361744, outstanding queue size 26
+2020-10-15 20:33:38,338 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #99 = documents up to #200000/361744, outstanding queue size 27
+2020-10-15 20:33:38,683 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #100 = documents up to #202000/361744, outstanding queue size 26
+2020-10-15 20:33:38,911 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #101 = documents up to #204000/361744, outstanding queue size 27
+2020-10-15 20:33:39,183 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #102 = documents up to #206000/361744, outstanding queue size 27
+2020-10-15 20:33:39,428 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #103 = documents up to #208000/361744, outstanding queue size 27
+2020-10-15 20:33:39,787 gensim.models.ldamodel.blend +230: INFO     [7239] merging changes from 22000 documents into a model of 361744 documents
+2020-10-15 20:33:40,136 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #5 (0.100): 0.007*"中" + 0.005*"说" + 0.004*"回复" + 0.004*"想" + 0.004*"老师" + 0.003*"朋友" + 0.003*"中国" + 0.003*"加油" + 0.003*"生活" + 0.003*"请"
+2020-10-15 20:33:40,138 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #8 (0.100): 0.010*"喜欢" + 0.005*"岁" + 0.005*"笑" + 0.005*"回复" + 0.004*"说" + 0.003*"分享" + 0.003*"做" + 0.003*"哈哈哈" + 0.003*"太" + 0.003*"吃"
+2020-10-15 20:33:40,141 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #4 (0.100): 0.007*"爱" + 0.006*"说" + 0.005*"吃" + 0.005*"微博" + 0.005*"想" + 0.004*"快乐" + 0.004*"围脖" + 0.004*"真的" + 0.003*"喜欢" + 0.003*"回复"
+2020-10-15 20:33:40,144 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #2 (0.100): 0.010*"男人" + 0.009*"说" + 0.008*"太" + 0.008*"女人" + 0.006*"可爱" + 0.005*"回复" + 0.004*"吃" + 0.003*"做" + 0.003*"真" + 0.003*"哈哈哈"
+2020-10-15 20:33:40,146 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #1 (0.100): 0.007*"说" + 0.005*"啊啊啊" + 0.004*"回复" + 0.004*"朋友" + 0.004*"关注" + 0.003*"粉丝" + 0.003*"中" + 0.003*"新" + 0.003*"明天" + 0.003*"里"
+2020-10-15 20:33:40,152 gensim.models.ldamodel.do_mstep +1049: INFO     [7239] topic diff=0.025226, rho=0.121268
+2020-10-15 20:33:40,157 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #104 = documents up to #210000/361744, outstanding queue size 27
+2020-10-15 20:33:41,045 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #105 = documents up to #212000/361744, outstanding queue size 22
+2020-10-15 20:33:41,243 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #106 = documents up to #214000/361744, outstanding queue size 23
+2020-10-15 20:33:41,246 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #107 = documents up to #216000/361744, outstanding queue size 24
+2020-10-15 20:33:41,249 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #108 = documents up to #218000/361744, outstanding queue size 25
+2020-10-15 20:33:41,252 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #109 = documents up to #220000/361744, outstanding queue size 26
+2020-10-15 20:33:41,462 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #110 = documents up to #222000/361744, outstanding queue size 27
+2020-10-15 20:33:41,831 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #111 = documents up to #224000/361744, outstanding queue size 26
+2020-10-15 20:33:42,106 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #112 = documents up to #226000/361744, outstanding queue size 26
+2020-10-15 20:33:42,380 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #113 = documents up to #228000/361744, outstanding queue size 26
+2020-10-15 20:33:42,958 gensim.models.ldamodel.blend +230: INFO     [7239] merging changes from 22000 documents into a model of 361744 documents
+2020-10-15 20:33:43,282 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #1 (0.100): 0.007*"说" + 0.005*"啊啊啊" + 0.004*"回复" + 0.004*"朋友" + 0.004*"关注" + 0.003*"中" + 0.003*"粉丝" + 0.003*"新" + 0.003*"明天" + 0.003*"希望"
+2020-10-15 20:33:43,285 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #2 (0.100): 0.010*"男人" + 0.009*"说" + 0.009*"太" + 0.008*"女人" + 0.007*"可爱" + 0.005*"回复" + 0.004*"吃" + 0.003*"做" + 0.003*"真" + 0.003*"哈哈哈"
+2020-10-15 20:33:43,287 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #7 (0.100): 0.007*"回复" + 0.006*"吃" + 0.005*"说" + 0.005*"粉丝" + 0.004*"谢谢" + 0.004*"中国" + 0.003*"中" + 0.003*"幸福" + 0.003*"女" + 0.003*"手机"
+2020-10-15 20:33:43,290 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #9 (0.100): 0.008*"第名" + 0.007*"哈哈哈" + 0.006*"想" + 0.005*"回复" + 0.005*"可爱" + 0.004*"说" + 0.004*"真的" + 0.003*"喜欢" + 0.003*"笑" + 0.003*"死"
+2020-10-15 20:33:43,292 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #8 (0.100): 0.010*"喜欢" + 0.006*"岁" + 0.005*"笑" + 0.005*"回复" + 0.004*"说" + 0.003*"分享" + 0.003*"做" + 0.003*"哈哈哈" + 0.003*"太" + 0.003*"图片"
+2020-10-15 20:33:43,297 gensim.models.ldamodel.do_mstep +1049: INFO     [7239] topic diff=0.023519, rho=0.112509
+2020-10-15 20:33:43,300 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #114 = documents up to #230000/361744, outstanding queue size 26
+2020-10-15 20:33:44,168 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #115 = documents up to #232000/361744, outstanding queue size 21
+2020-10-15 20:33:44,171 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #116 = documents up to #234000/361744, outstanding queue size 22
+2020-10-15 20:33:44,174 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #117 = documents up to #236000/361744, outstanding queue size 23
+2020-10-15 20:33:44,176 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #118 = documents up to #238000/361744, outstanding queue size 24
+2020-10-15 20:33:44,179 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #119 = documents up to #240000/361744, outstanding queue size 25
+2020-10-15 20:33:44,381 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #120 = documents up to #242000/361744, outstanding queue size 26
+2020-10-15 20:33:44,612 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #121 = documents up to #244000/361744, outstanding queue size 26
+2020-10-15 20:33:44,946 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #122 = documents up to #246000/361744, outstanding queue size 26
+2020-10-15 20:33:45,222 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #123 = documents up to #248000/361744, outstanding queue size 26
+2020-10-15 20:33:45,517 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #124 = documents up to #250000/361744, outstanding queue size 26
+2020-10-15 20:33:45,894 gensim.models.ldamodel.blend +230: INFO     [7239] merging changes from 22000 documents into a model of 361744 documents
+2020-10-15 20:33:46,206 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #9 (0.100): 0.008*"第名" + 0.007*"哈哈哈" + 0.006*"想" + 0.005*"回复" + 0.005*"可爱" + 0.004*"说" + 0.004*"真的" + 0.003*"笑" + 0.003*"喜欢" + 0.003*"死"
+2020-10-15 20:33:46,208 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #6 (0.100): 0.006*"回复" + 0.006*"说" + 0.006*"支持" + 0.005*"中国" + 0.005*"孩子" + 0.004*"分享" + 0.004*"图片" + 0.004*"爱" + 0.003*"太" + 0.003*"喜欢"
+2020-10-15 20:33:46,211 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #7 (0.100): 0.007*"回复" + 0.006*"吃" + 0.005*"粉丝" + 0.005*"说" + 0.004*"谢谢" + 0.004*"中国" + 0.003*"中" + 0.003*"女" + 0.003*"幸福" + 0.003*"男"
+2020-10-15 20:33:46,214 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #4 (0.100): 0.007*"爱" + 0.006*"吃" + 0.006*"说" + 0.005*"微博" + 0.005*"想" + 0.004*"快乐" + 0.004*"围脖" + 0.004*"喜欢" + 0.003*"真的" + 0.003*"回复"
+2020-10-15 20:33:46,218 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #0 (0.100): 0.009*"做" + 0.007*"说" + 0.007*"想" + 0.007*"回复" + 0.006*"一种" + 0.005*"哈哈哈" + 0.005*"请" + 0.004*"微博" + 0.003*"爱" + 0.003*"开心"
+2020-10-15 20:33:46,223 gensim.models.ldamodel.do_mstep +1049: INFO     [7239] topic diff=0.023301, rho=0.105409
+2020-10-15 20:33:46,226 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #125 = documents up to #252000/361744, outstanding queue size 26
+2020-10-15 20:33:46,827 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #126 = documents up to #254000/361744, outstanding queue size 23
+2020-10-15 20:33:46,830 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #127 = documents up to #256000/361744, outstanding queue size 24
+2020-10-15 20:33:47,081 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #128 = documents up to #258000/361744, outstanding queue size 24
+2020-10-15 20:33:47,084 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #129 = documents up to #260000/361744, outstanding queue size 25
+2020-10-15 20:33:47,264 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #130 = documents up to #262000/361744, outstanding queue size 26
+2020-10-15 20:33:47,580 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #131 = documents up to #264000/361744, outstanding queue size 27
+2020-10-15 20:33:47,812 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #132 = documents up to #266000/361744, outstanding queue size 27
+2020-10-15 20:33:48,086 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #133 = documents up to #268000/361744, outstanding queue size 27
+2020-10-15 20:33:48,397 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #134 = documents up to #270000/361744, outstanding queue size 27
+2020-10-15 20:33:48,671 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #135 = documents up to #272000/361744, outstanding queue size 27
+2020-10-15 20:33:48,904 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #136 = documents up to #274000/361744, outstanding queue size 27
+2020-10-15 20:33:49,301 gensim.models.ldamodel.blend +230: INFO     [7239] merging changes from 22000 documents into a model of 361744 documents
+2020-10-15 20:33:49,636 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #3 (0.100): 0.016*"说" + 0.008*"想" + 0.007*"喜欢" + 0.007*"爱" + 0.006*"做" + 0.005*"回复" + 0.005*"真的" + 0.005*"中" + 0.004*"里" + 0.003*"中国"
+2020-10-15 20:33:49,639 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #6 (0.100): 0.006*"说" + 0.006*"回复" + 0.006*"中国" + 0.006*"支持" + 0.005*"孩子" + 0.004*"分享" + 0.004*"图片" + 0.004*"爱" + 0.003*"太" + 0.003*"时间"
+2020-10-15 20:33:49,642 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #8 (0.100): 0.009*"喜欢" + 0.006*"岁" + 0.005*"笑" + 0.004*"回复" + 0.004*"说" + 0.003*"分享" + 0.003*"太" + 0.003*"图片" + 0.003*"做" + 0.003*"吃"
+2020-10-15 20:33:49,645 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #5 (0.100): 0.007*"中" + 0.005*"说" + 0.004*"想" + 0.004*"回复" + 0.004*"老师" + 0.004*"中国" + 0.003*"加油" + 0.003*"朋友" + 0.003*"请" + 0.003*"生活"
+2020-10-15 20:33:49,648 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #9 (0.100): 0.008*"第名" + 0.007*"哈哈哈" + 0.006*"想" + 0.005*"可爱" + 0.005*"回复" + 0.004*"说" + 0.004*"真的" + 0.004*"死" + 0.004*"星座" + 0.003*"天蝎座"
+2020-10-15 20:33:49,653 gensim.models.ldamodel.do_mstep +1049: INFO     [7239] topic diff=0.023800, rho=0.099504
+2020-10-15 20:33:49,659 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #137 = documents up to #276000/361744, outstanding queue size 27
+2020-10-15 20:33:50,520 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #138 = documents up to #278000/361744, outstanding queue size 22
+2020-10-15 20:33:50,523 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #139 = documents up to #280000/361744, outstanding queue size 23
+2020-10-15 20:33:50,526 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #140 = documents up to #282000/361744, outstanding queue size 24
+2020-10-15 20:33:50,528 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #141 = documents up to #284000/361744, outstanding queue size 25
+2020-10-15 20:33:50,707 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #142 = documents up to #286000/361744, outstanding queue size 26
+2020-10-15 20:33:51,027 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #143 = documents up to #288000/361744, outstanding queue size 26
+2020-10-15 20:33:51,295 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #144 = documents up to #290000/361744, outstanding queue size 26
+2020-10-15 20:33:51,569 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #145 = documents up to #292000/361744, outstanding queue size 26
+2020-10-15 20:33:51,805 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #146 = documents up to #294000/361744, outstanding queue size 26
+2020-10-15 20:33:52,442 gensim.models.ldamodel.blend +230: INFO     [7239] merging changes from 22000 documents into a model of 361744 documents
+2020-10-15 20:33:52,772 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #8 (0.100): 0.009*"喜欢" + 0.006*"岁" + 0.005*"笑" + 0.004*"回复" + 0.004*"说" + 0.003*"分享" + 0.003*"太" + 0.003*"图片" + 0.003*"吃" + 0.003*"做"
+2020-10-15 20:33:52,776 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #5 (0.100): 0.007*"中" + 0.005*"说" + 0.004*"想" + 0.004*"回复" + 0.004*"中国" + 0.004*"老师" + 0.003*"加油" + 0.003*"朋友" + 0.003*"死" + 0.003*"请"
+2020-10-15 20:33:52,778 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #4 (0.100): 0.007*"吃" + 0.006*"爱" + 0.005*"说" + 0.005*"想" + 0.004*"微博" + 0.004*"围脖" + 0.004*"快乐" + 0.004*"喜欢" + 0.004*"真的" + 0.003*"回复"
+2020-10-15 20:33:52,782 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #2 (0.100): 0.010*"男人" + 0.010*"说" + 0.009*"太" + 0.009*"女人" + 0.007*"可爱" + 0.005*"回复" + 0.004*"吃" + 0.004*"真" + 0.003*"做" + 0.003*"想"
+2020-10-15 20:33:52,786 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #9 (0.100): 0.008*"第名" + 0.007*"哈哈哈" + 0.006*"想" + 0.005*"可爱" + 0.005*"回复" + 0.004*"死" + 0.004*"说" + 0.004*"真的" + 0.004*"星座" + 0.004*"天蝎座"
+2020-10-15 20:33:52,790 gensim.models.ldamodel.do_mstep +1049: INFO     [7239] topic diff=0.021257, rho=0.094491
+2020-10-15 20:33:52,793 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #147 = documents up to #296000/361744, outstanding queue size 26
+2020-10-15 20:33:53,920 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #148 = documents up to #298000/361744, outstanding queue size 21
+2020-10-15 20:33:53,923 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #149 = documents up to #300000/361744, outstanding queue size 22
+2020-10-15 20:33:53,926 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #150 = documents up to #302000/361744, outstanding queue size 23
+2020-10-15 20:33:53,930 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #151 = documents up to #304000/361744, outstanding queue size 24
+2020-10-15 20:33:53,933 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #152 = documents up to #306000/361744, outstanding queue size 25
+2020-10-15 20:33:53,936 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #153 = documents up to #308000/361744, outstanding queue size 26
+2020-10-15 20:33:54,237 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #154 = documents up to #310000/361744, outstanding queue size 26
+2020-10-15 20:33:54,510 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #155 = documents up to #312000/361744, outstanding queue size 26
+2020-10-15 20:33:54,715 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #156 = documents up to #314000/361744, outstanding queue size 27
+2020-10-15 20:33:55,061 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #157 = documents up to #316000/361744, outstanding queue size 26
+2020-10-15 20:33:55,675 gensim.models.ldamodel.blend +230: INFO     [7239] merging changes from 22000 documents into a model of 361744 documents
+2020-10-15 20:33:55,997 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #3 (0.100): 0.017*"说" + 0.008*"想" + 0.007*"喜欢" + 0.007*"爱" + 0.006*"做" + 0.005*"真的" + 0.005*"回复" + 0.005*"中" + 0.004*"里" + 0.003*"中国"
+2020-10-15 20:33:56,000 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #9 (0.100): 0.008*"第名" + 0.007*"哈哈哈" + 0.006*"想" + 0.005*"可爱" + 0.004*"回复" + 0.004*"死" + 0.004*"真的" + 0.004*"星座" + 0.004*"说" + 0.004*"天蝎座"
+2020-10-15 20:33:56,003 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #6 (0.100): 0.007*"中国" + 0.006*"说" + 0.006*"孩子" + 0.006*"回复" + 0.005*"支持" + 0.004*"分享" + 0.004*"图片" + 0.003*"时间" + 0.003*"爱" + 0.003*"太"
+2020-10-15 20:33:56,006 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #5 (0.100): 0.007*"中" + 0.005*"说" + 0.004*"想" + 0.004*"中国" + 0.004*"回复" + 0.004*"老师" + 0.003*"加油" + 0.003*"朋友" + 0.003*"请" + 0.003*"死"
+2020-10-15 20:33:56,009 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #0 (0.100): 0.009*"做" + 0.007*"说" + 0.007*"想" + 0.006*"回复" + 0.006*"一种" + 0.005*"请" + 0.004*"哈哈哈" + 0.003*"微博" + 0.003*"爱" + 0.003*"中国"
+2020-10-15 20:33:56,014 gensim.models.ldamodel.do_mstep +1049: INFO     [7239] topic diff=0.021833, rho=0.090167
+2020-10-15 20:33:56,017 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #158 = documents up to #318000/361744, outstanding queue size 26
+2020-10-15 20:33:56,899 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #159 = documents up to #320000/361744, outstanding queue size 21
+2020-10-15 20:33:56,902 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #160 = documents up to #322000/361744, outstanding queue size 22
+2020-10-15 20:33:56,905 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #161 = documents up to #324000/361744, outstanding queue size 23
+2020-10-15 20:33:56,907 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #162 = documents up to #326000/361744, outstanding queue size 24
+2020-10-15 20:33:56,910 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #163 = documents up to #328000/361744, outstanding queue size 25
+2020-10-15 20:33:57,082 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #164 = documents up to #330000/361744, outstanding queue size 26
+2020-10-15 20:33:57,406 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #165 = documents up to #332000/361744, outstanding queue size 26
+2020-10-15 20:33:57,727 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #166 = documents up to #334000/361744, outstanding queue size 26
+2020-10-15 20:33:58,011 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #167 = documents up to #336000/361744, outstanding queue size 26
+2020-10-15 20:33:58,267 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #168 = documents up to #338000/361744, outstanding queue size 26
+2020-10-15 20:33:58,845 gensim.models.ldamodel.blend +230: INFO     [7239] merging changes from 22000 documents into a model of 361744 documents
+2020-10-15 20:33:59,170 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #9 (0.100): 0.009*"第名" + 0.007*"哈哈哈" + 0.006*"想" + 0.005*"可爱" + 0.004*"死" + 0.004*"星座" + 0.004*"回复" + 0.004*"真的" + 0.004*"天蝎座" + 0.004*"说"
+2020-10-15 20:33:59,174 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #2 (0.100): 0.010*"说" + 0.010*"男人" + 0.009*"太" + 0.009*"女人" + 0.006*"可爱" + 0.005*"吃" + 0.005*"回复" + 0.004*"真" + 0.003*"想" + 0.003*"做"
+2020-10-15 20:33:59,177 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #1 (0.100): 0.009*"啊啊啊" + 0.007*"说" + 0.004*"回复" + 0.004*"关注" + 0.004*"朋友" + 0.003*"中" + 0.003*"明天" + 0.003*"新" + 0.003*"希望" + 0.003*"里"
+2020-10-15 20:33:59,180 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #4 (0.100): 0.008*"吃" + 0.006*"爱" + 0.005*"说" + 0.005*"想" + 0.004*"微博" + 0.004*"围脖" + 0.004*"真的" + 0.003*"喜欢" + 0.003*"快乐" + 0.003*"回复"
+2020-10-15 20:33:59,183 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #5 (0.100): 0.007*"中" + 0.005*"说" + 0.004*"想" + 0.004*"中国" + 0.004*"回复" + 0.004*"老师" + 0.003*"加油" + 0.003*"菲律宾" + 0.003*"朋友" + 0.003*"请"
+2020-10-15 20:33:59,188 gensim.models.ldamodel.do_mstep +1049: INFO     [7239] topic diff=0.022713, rho=0.086387
+2020-10-15 20:33:59,191 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #169 = documents up to #340000/361744, outstanding queue size 26
+2020-10-15 20:34:00,079 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #170 = documents up to #342000/361744, outstanding queue size 21
+2020-10-15 20:34:00,282 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #171 = documents up to #344000/361744, outstanding queue size 22
+2020-10-15 20:34:00,285 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #172 = documents up to #346000/361744, outstanding queue size 23
+2020-10-15 20:34:00,288 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #173 = documents up to #348000/361744, outstanding queue size 24
+2020-10-15 20:34:00,292 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #174 = documents up to #350000/361744, outstanding queue size 25
+2020-10-15 20:34:00,295 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #175 = documents up to #352000/361744, outstanding queue size 26
+2020-10-15 20:34:00,513 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #176 = documents up to #354000/361744, outstanding queue size 26
+2020-10-15 20:34:01,068 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #177 = documents up to #356000/361744, outstanding queue size 25
+2020-10-15 20:34:01,113 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #178 = documents up to #358000/361744, outstanding queue size 26
+2020-10-15 20:34:01,344 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #179 = documents up to #360000/361744, outstanding queue size 26
+2020-10-15 20:34:01,755 gensim.models.ldamodel.blend +230: INFO     [7239] merging changes from 22000 documents into a model of 361744 documents
+2020-10-15 20:34:02,093 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #5 (0.100): 0.008*"中" + 0.005*"说" + 0.004*"中国" + 0.004*"想" + 0.004*"老师" + 0.004*"回复" + 0.003*"菲律宾" + 0.003*"加油" + 0.003*"朋友" + 0.003*"请"
+2020-10-15 20:34:02,097 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #2 (0.100): 0.010*"说" + 0.009*"太" + 0.009*"男人" + 0.008*"女人" + 0.006*"可爱" + 0.005*"吃" + 0.005*"回复" + 0.004*"真" + 0.003*"想" + 0.003*"做"
+2020-10-15 20:34:02,101 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #9 (0.100): 0.009*"第名" + 0.007*"哈哈哈" + 0.006*"想" + 0.004*"死" + 0.004*"星座" + 0.004*"可爱" + 0.004*"天蝎座" + 0.004*"真的" + 0.004*"回复" + 0.004*"说"
+2020-10-15 20:34:02,105 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #8 (0.100): 0.008*"喜欢" + 0.007*"岁" + 0.004*"笑" + 0.004*"说" + 0.004*"回复" + 0.003*"太" + 0.003*"分享" + 0.003*"图片" + 0.003*"吃" + 0.003*"北京"
+2020-10-15 20:34:02,109 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #3 (0.100): 0.018*"说" + 0.009*"想" + 0.007*"爱" + 0.007*"喜欢" + 0.006*"做" + 0.006*"真的" + 0.005*"中" + 0.004*"回复" + 0.004*"里" + 0.003*"生活"
+2020-10-15 20:34:02,114 gensim.models.ldamodel.do_mstep +1049: INFO     [7239] topic diff=0.021775, rho=0.083045
+2020-10-15 20:34:02,118 gensim.models.ldamulticore.update +297: INFO     [7239] PROGRESS: pass 0, dispatched chunk #180 = documents up to #361744/361744, outstanding queue size 26
+2020-10-15 20:34:04,971 gensim.models.ldamodel.blend +230: INFO     [7239] merging changes from 22000 documents into a model of 361744 documents
+2020-10-15 20:34:05,303 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #3 (0.100): 0.018*"说" + 0.010*"想" + 0.007*"爱" + 0.007*"喜欢" + 0.006*"做" + 0.006*"真的" + 0.005*"中" + 0.004*"回复" + 0.004*"里" + 0.003*"生活"
+2020-10-15 20:34:05,307 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #4 (0.100): 0.010*"吃" + 0.006*"爱" + 0.006*"想" + 0.005*"说" + 0.004*"微博" + 0.004*"真的" + 0.004*"围脖" + 0.003*"喜欢" + 0.003*"妈妈" + 0.003*"快乐"
+2020-10-15 20:34:05,310 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #6 (0.100): 0.008*"中国" + 0.008*"孩子" + 0.006*"说" + 0.005*"回复" + 0.005*"支持" + 0.004*"图片" + 0.003*"分享" + 0.003*"时间" + 0.003*"请" + 0.003*"爱"
+2020-10-15 20:34:05,314 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #2 (0.100): 0.010*"说" + 0.010*"太" + 0.009*"男人" + 0.008*"女人" + 0.006*"可爱" + 0.005*"吃" + 0.005*"回复" + 0.004*"真" + 0.004*"想" + 0.003*"做"
+2020-10-15 20:34:05,317 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #1 (0.100): 0.009*"啊啊啊" + 0.007*"说" + 0.004*"中" + 0.004*"明天" + 0.004*"回复" + 0.003*"朋友" + 0.003*"关注" + 0.003*"新" + 0.003*"希望" + 0.003*"里"
+2020-10-15 20:34:05,323 gensim.models.ldamodel.do_mstep +1049: INFO     [7239] topic diff=0.020506, rho=0.080064
+2020-10-15 20:34:08,054 gensim.models.ldamodel.log_perplexity +824: INFO     [7239] -10.855 per-word bound, 1852.3 perplexity estimate based on a held-out corpus of 1744 documents with 30871 words
+2020-10-15 20:34:08,624 gensim.models.ldamodel.blend +230: INFO     [7239] merging changes from 28000 documents into a model of 361744 documents
+2020-10-15 20:34:08,732 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #9 (0.100): 0.010*"第名" + 0.007*"哈哈哈" + 0.006*"想" + 0.005*"星座" + 0.005*"死" + 0.004*"天蝎座" + 0.004*"真的" + 0.004*"可爱" + 0.004*"狮子座" + 0.004*"巨蟹座"
+2020-10-15 20:34:08,735 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #1 (0.100): 0.010*"啊啊啊" + 0.007*"说" + 0.004*"明天" + 0.004*"中" + 0.003*"回复" + 0.003*"朋友" + 0.003*"关注" + 0.003*"新" + 0.003*"希望" + 0.003*"里"
+2020-10-15 20:34:08,737 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #7 (0.100): 0.007*"吃" + 0.006*"回复" + 0.005*"粉丝" + 0.005*"说" + 0.004*"女" + 0.004*"男" + 0.004*"中国" + 0.004*"手机" + 0.003*"谢谢" + 0.003*"中"
+2020-10-15 20:34:08,740 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #8 (0.100): 0.008*"岁" + 0.008*"喜欢" + 0.004*"说" + 0.004*"笑" + 0.004*"回复" + 0.003*"上海" + 0.003*"太" + 0.003*"图片" + 0.003*"分享" + 0.003*"吃"
+2020-10-15 20:34:08,742 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #5 (0.100): 0.008*"中" + 0.005*"说" + 0.004*"中国" + 0.004*"想" + 0.004*"菲律宾" + 0.004*"老师" + 0.003*"回复" + 0.003*"加油" + 0.003*"请" + 0.003*"朋友"
+2020-10-15 20:34:08,746 gensim.models.ldamodel.do_mstep +1049: INFO     [7239] topic diff=0.018662, rho=0.077382
+2020-10-15 20:34:09,477 gensim.models.ldamodel.log_perplexity +824: INFO     [7239] -10.828 per-word bound, 1818.3 perplexity estimate based on a held-out corpus of 1744 documents with 30871 words
+2020-10-15 20:34:09,607 gensim.models.ldamodel.blend +230: INFO     [7239] merging changes from 1744 documents into a model of 361744 documents
+2020-10-15 20:34:09,719 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #8 (0.100): 0.009*"岁" + 0.007*"喜欢" + 0.004*"说" + 0.004*"笑" + 0.004*"回复" + 0.003*"上海" + 0.003*"太" + 0.003*"北京" + 0.003*"图片" + 0.003*"完"
+2020-10-15 20:34:09,722 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #0 (0.100): 0.009*"做" + 0.007*"想" + 0.007*"说" + 0.006*"一种" + 0.005*"回复" + 0.005*"请" + 0.003*"爱" + 0.003*"哈哈哈" + 0.003*"微博" + 0.003*"事"
+2020-10-15 20:34:09,724 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #3 (0.100): 0.018*"说" + 0.010*"想" + 0.007*"爱" + 0.007*"喜欢" + 0.006*"真的" + 0.006*"做" + 0.005*"中" + 0.004*"里" + 0.004*"回复" + 0.004*"生活"
+2020-10-15 20:34:09,726 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #4 (0.100): 0.011*"吃" + 0.006*"想" + 0.006*"爱" + 0.005*"说" + 0.004*"妈妈" + 0.004*"微博" + 0.004*"真的" + 0.003*"买" + 0.003*"围脖" + 0.003*"喜欢"
+2020-10-15 20:34:09,728 gensim.models.ldamodel.show_topics +1171: INFO     [7239] topic #6 (0.100): 0.008*"孩子" + 0.008*"中国" + 0.006*"说" + 0.005*"回复" + 0.004*"支持" + 0.003*"图片" + 0.003*"请" + 0.003*"分享" + 0.003*"时间" + 0.003*"中"
+2020-10-15 20:34:09,732 gensim.models.ldamodel.do_mstep +1049: INFO     [7239] topic diff=0.022872, rho=0.074329
+2020-10-15 20:34:10,376 gensim.models.ldamodel.log_perplexity +824: INFO     [7239] -10.540 per-word bound, 1488.4 perplexity estimate based on a held-out corpus of 1744 documents with 30871 words
+2020-10-15 20:37:26,085 gensim.models.ldamodel.log_perplexity +824: INFO     [7239] -10.779 per-word bound, 1757.3 perplexity estimate based on a held-out corpus of 361744 documents with 6374836 words
+2020-10-15 20:37:26,114 gensim.topic_coherence.probability_estimation.p_boolean_sliding_window +155: INFO     [7239] using ParallelWordOccurrenceAccumulator(processes=11, batch_size=64) to estimate probabilities from sliding windows
+2020-10-15 20:37:30,550 gensim.topic_coherence.text_analysis.reply_to_master +600: INFO     [8198] serializing accumulator to return to master...
+2020-10-15 20:37:30,550 gensim.topic_coherence.text_analysis.reply_to_master +600: INFO     [8194] serializing accumulator to return to master...
+2020-10-15 20:37:30,550 gensim.topic_coherence.text_analysis.reply_to_master +600: INFO     [8188] serializing accumulator to return to master...
+2020-10-15 20:37:30,552 gensim.topic_coherence.text_analysis.reply_to_master +602: INFO     [8198] accumulator serialized
+2020-10-15 20:37:30,552 gensim.topic_coherence.text_analysis.reply_to_master +602: INFO     [8194] accumulator serialized
+2020-10-15 20:37:30,551 gensim.topic_coherence.text_analysis.reply_to_master +600: INFO     [8191] serializing accumulator to return to master...
+2020-10-15 20:37:30,553 gensim.topic_coherence.text_analysis.reply_to_master +602: INFO     [8188] accumulator serialized
+2020-10-15 20:37:30,552 gensim.topic_coherence.text_analysis.reply_to_master +600: INFO     [8197] serializing accumulator to return to master...
+2020-10-15 20:37:30,554 gensim.topic_coherence.text_analysis.reply_to_master +602: INFO     [8191] accumulator serialized
+2020-10-15 20:37:30,554 gensim.topic_coherence.text_analysis.reply_to_master +600: INFO     [8190] serializing accumulator to return to master...
+2020-10-15 20:37:30,554 gensim.topic_coherence.text_analysis.reply_to_master +602: INFO     [8197] accumulator serialized
+2020-10-15 20:37:30,556 gensim.topic_coherence.text_analysis.reply_to_master +602: INFO     [8190] accumulator serialized
+2020-10-15 20:37:30,557 gensim.topic_coherence.text_analysis.reply_to_master +600: INFO     [8192] serializing accumulator to return to master...
+2020-10-15 20:37:30,559 gensim.topic_coherence.text_analysis.reply_to_master +602: INFO     [8192] accumulator serialized
+2020-10-15 20:37:30,559 gensim.topic_coherence.text_analysis.reply_to_master +600: INFO     [8196] serializing accumulator to return to master...
+2020-10-15 20:37:30,560 gensim.topic_coherence.text_analysis.reply_to_master +600: INFO     [8193] serializing accumulator to return to master...
+2020-10-15 20:37:30,561 gensim.topic_coherence.text_analysis.reply_to_master +602: INFO     [8196] accumulator serialized
+2020-10-15 20:37:30,561 gensim.topic_coherence.text_analysis.reply_to_master +600: INFO     [8189] serializing accumulator to return to master...
+2020-10-15 20:37:30,561 gensim.topic_coherence.text_analysis.reply_to_master +602: INFO     [8193] accumulator serialized
+2020-10-15 20:37:30,560 gensim.topic_coherence.text_analysis.reply_to_master +600: INFO     [8195] serializing accumulator to return to master...
+2020-10-15 20:37:30,563 gensim.topic_coherence.text_analysis.reply_to_master +602: INFO     [8195] accumulator serialized
+2020-10-15 20:37:30,562 gensim.topic_coherence.text_analysis.reply_to_master +602: INFO     [8189] accumulator serialized
+2020-10-15 20:37:39,284 gensim.topic_coherence.text_analysis.terminate_workers +530: INFO     [7239] 11 accumulators retrieved from output queue
+2020-10-15 20:37:39,418 gensim.topic_coherence.text_analysis.merge_accumulators +552: INFO     [7239] accumulated word occurrence stats for 262291 virtual documents
